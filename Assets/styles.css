@@ -47,11 +47,53 @@ img {
     transition: 0.3s;
 }
 .nav-links li a:hover {
-    color: #00c2ff;
+    color: #02bdf8
 }
 .nav-icons {
     display: flex;
     gap: 15px;
     font-size: 18px;
     cursor: pointer;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+    gap: 40px;
+}
+.hero-text {
+    flex: 1;
+}
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: #111;
+}
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #555;
+}
+.hero-text button {
+    padding: 12px 25px;
+    border: none;
+    background-color: #111;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.hero-text button:hover {
+    background-color: #00c2ff;
+    color: #fff;
+}
+/*.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}*/
+.hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
 }
