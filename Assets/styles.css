@@ -13,6 +13,11 @@ body {
     width: 100%;
     margin: auto;
 }
+.narrow-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 a {
     text-decoration: none;
     color: inherit;
@@ -31,6 +36,8 @@ img {
     max-width: 1800px;
     background-color: #fffefe;
     color: #fff;
+    padding-top:10px ;
+    padding-bottom: 10px;
 }
 .logo img {
     height: 45px;
