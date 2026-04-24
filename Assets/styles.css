@@ -106,6 +106,35 @@ img {
     font-size: 18px;
     color: #111;
 }
+.frame-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+.frame-card {
+    text-align: center;
+}
+.frame-img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.frame-img img {
+    width: 70%;
+    object-fit: contain;
+}
+.frame-card p {
+    font-size: 15px;
+    color: #222;
+}
 .testimonials {
     padding: 60px 0;
     text-align: center;
