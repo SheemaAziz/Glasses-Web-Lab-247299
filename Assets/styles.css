@@ -107,9 +107,11 @@ img {
     color: #111;
 }
 .section-title {
+    padding-top: 30px;
     text-align: center;
     font-size: 30px;
-    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     margin-bottom: 50px;
     color: #111;
     position: relative;
@@ -119,10 +121,10 @@ img {
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
-    padding: 40px 0;
 }
 .frame-card {
     text-align: center;
+    padding-bottom: 30px;
 }
 .frame-img {
     width: 230px;
@@ -141,6 +143,7 @@ img {
 }
 .frame-card p {
     font-size: 15px;
+    font-weight: bold;
     color: #222;
 }
 .testimonials {
