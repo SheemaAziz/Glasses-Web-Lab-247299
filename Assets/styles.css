@@ -136,10 +136,14 @@ img {
     justify-content: center;
     overflow: hidden;
     margin-bottom: 15px;
+    
 }
 .frame-img img {
     width: 70%;
     object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .frame-card p {
     font-size: 15px;
